@@ -4,20 +4,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="text-gray-600">
     <div>
       <!-- content wrapper -->
       <div>
         <nav>
           <div>
-            <h1>
+            <h1 class="font-bold uppercase">
               <a href="/">Food Store</a>
             </h1>
           </div>
           <ul>
-            <li>
+            <li class="text-gray- 700 font-bold">
               <a href="#">
                 <span>Home</span>
               </a>
@@ -36,44 +36,44 @@
             </li>
           </ul>
         </nav>
-      </div> <!-- end nav -->
+      </div>
+      <!-- end nav -->
 
       <main>
+        <div>
+          <a href="#">Log in</a>
+          <a href="#">Sign up</a>
+        </div>
+
+        <header>
+          <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+          <h3 class="text-2xl font-semibold">Nice meals</h3>
+        </header>
+
+        <div>
+          <h4 class="font-bold">Latest Recipes</h4>
+
           <div>
-              <a href="#">Log in</a>
-              <a href="#">Sign up</a>
-          </div>
-
-          <header>
-              <h2>Recipes</h2>
-              <h3>Nice meals</h3>
-          </header>
-
-          <div>
-              <h4>Latest Recipes</h4>
-
+            <!--Cards-->
+            <div>
+              <img src="img/jollof rice.jpg" alt="jollof rice" />
               <div>
-                  <!--Cards-->
-                  <div>
-                      <img src="img/jollof rice.jpg" alt="jollof rice">
-                      <div>
-                          <span>Jellof rice and chicken</span>
-                          <span>spaghetti and egg</span>
-                      </div>
-                  </div>
+                <span>Jellof rice and chicken</span>
+                <span>spaghetti and egg</span>
               </div>
-
-              <h4>Most Popular</h4>
-
-                <div>
-                    <!-- Cards -->
-                </div>               
-
-                <div>
-                    <div>Load more</div>
-                </div>
+            </div>
           </div>
 
+          <h4>Most Popular</h4>
+
+          <div>
+            <!-- Cards -->
+          </div>
+
+          <div>
+            <div class="font-bold">Load more</div>
+          </div>
+        </div>
       </main>
     </div>
   </body>
